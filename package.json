@@ -1,14 +1,22 @@
 {
-    "name": "@tailwindcss-primeui/monorepo",
+    "name": "@cjdevstudios/tailwindcss-bumblevue-monorepo",
     "version": "0.0.0",
-    "author": "PrimeTek Informatics",
+    "author": "CJ Development Studios",
+    "contributors": [
+        {
+            "name": "CJ Development Studios"
+        },
+        {
+            "name": "PrimeTek Informatics"
+        }
+    ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/tailwindcss-primeui.git"
+        "url": "git+https://github.com/CJDevStudios/tailwindcss-bumblevue.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/primefaces/tailwindcss-primeui/issues"
+        "url": "https://github.com/CJDevStudios/tailwindcss-bumblevue/issues"
     },
     "scripts": {
         "setup": "npx rimraf --glob **/node_modules **/dist ./pnpm-lock.yaml && pnpm run init",

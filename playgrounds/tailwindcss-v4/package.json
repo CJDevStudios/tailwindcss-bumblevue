@@ -11,7 +11,7 @@
     "devDependencies": {
         "@tailwindcss/vite": "catalog:tw4",
         "tailwindcss": "catalog:tw4",
-        "tailwindcss-primeui": "workspace:*",
+        "@cjdevstudios/tailwindcss-bumblevue": "workspace:*",
         "vite": "^6.1.0"
     }
 }
