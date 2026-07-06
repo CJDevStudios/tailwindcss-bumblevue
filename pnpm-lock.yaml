@@ -76,7 +76,7 @@ importers:
         specifier: ^8.24.1
         version: 8.24.1(eslint@9.21.0(jiti@2.4.2))(typescript@5.7.3)
 
-  packages/tailwindcss-primeui:
+  packages/tailwindcss-bumblevue:
     dependencies:
       tailwindcss:
         specifier: '>=3.1.0'
@@ -85,6 +85,9 @@ importers:
 
   playgrounds/tailwindcss-v3:
     devDependencies:
+      '@cjdevstudios/tailwindcss-bumblevue':
+        specifier: workspace:*
+        version: link:../../packages/tailwindcss-bumblevue
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.5.3)
@@ -94,24 +97,21 @@ importers:
       tailwindcss:
         specifier: catalog:tw3
         version: 3.4.17
-      tailwindcss-primeui:
-        specifier: workspace:*
-        version: link:../../packages/tailwindcss-primeui
       vite:
         specifier: ^6.1.0
         version: 6.1.1(@types/node@22.13.5)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0)
 
   playgrounds/tailwindcss-v4:
     devDependencies:
+      '@cjdevstudios/tailwindcss-bumblevue':
+        specifier: workspace:*
+        version: link:../../packages/tailwindcss-bumblevue
       '@tailwindcss/vite':
         specifier: catalog:tw4
         version: 4.0.8(vite@6.1.1(@types/node@22.13.5)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0))
       tailwindcss:
         specifier: catalog:tw4
         version: 4.0.8
-      tailwindcss-primeui:
-        specifier: workspace:*
-        version: link:../../packages/tailwindcss-primeui
       vite:
         specifier: ^6.1.0
         version: 6.1.1(@types/node@22.13.5)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0)

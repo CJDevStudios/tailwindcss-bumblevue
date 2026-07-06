@@ -1,4 +1,4 @@
-import PrimeUI from 'tailwindcss-primeui';
+import BumbleVue from '@cjdevstudios/tailwindcss-bumblevue';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -8,5 +8,5 @@ export default {
             colors: {}
         }
     },
-    plugins: [PrimeUI]
+    plugins: [BumbleVue]
 };
